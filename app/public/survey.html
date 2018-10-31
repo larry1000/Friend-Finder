@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <h2>Survey Questions</h2>
+        <h3>About You</h3>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span>Name (Required)</span>
+                <span class="input-group-text" id="friend-search"></span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span>Link to photo image (Required)</span>
+                <span class="input-group-text" id="inputGroup-sizing-default"></span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+
+        <div class="select" id="selections">
+            <h2>Question 1</h2>
+            <span>Your mind is always buzzing with unexplored ideas and plans.</span>
+            <select class="custom-select">
+                <option selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h2>Question 2</h2>
+            <span>Generally speaking, you rely more on your experience than your imagination.</span>
+            <select class="custom-select">
+                <option selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+
+            <h2>Question 3</h2>
+            <span>You find it easy to stay relaxed and focused even when there is some pressure.</span>
+            <select class="custom-select">
+                <option selected>Select an Option</option>
+                <option value="1" class="selected">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h2>Question 4</h2>
+            <span>You rarely do something just out of sheer curiosity.</span>
+            <select class="custom-select">
+                <option selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h2>Question 5</h2>
+            <span>People can rarely upset you.</span>
+            <select class="custom-select">
+                <option selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h2>Question 6</h2>
+            <span>It is often difficult fo you to relate to other people's feelings.</span>
+            <select class="custom-select">
+                <option selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h2>Question 7</h2>
+            <span>In a discussion, truth should be more important than people's sensitivities.</span>
+            <select class="custom-select">
+                <option selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h2>Question 8</h2>
+            <span>You rarely get carried away by fantasies and ideas.</span>
+            <select class="custom-select">
+                <option selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h2>Question 9</h2>
+            <span>You think that everyone's view should be respected regardless of whether they are supported by facts
+                or not.</span>
+            <select class="custom-select">
+                <option selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <h2>Question 10</h2>
+            <span>You feel more energetic after spending time with a group of people.</span>
+            <select class="custom-select">
+                <option selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+            <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+        </div>
+        <script type="text/javascript">
+            // Build out survey
+            // Use jquery to grab the input values .$().val().trim()
+            // wrap up all data in one object
+            /*
+            let userInfo = {
+                name: $().val...  , 
+             }
+            */
+
+            // make an ajax request to the back end route /api.friends
+
+            //
+            $("#submit").on("click", function () {
+                var searchedFriend = $("#friend-search").val().trim();
+                searchedFriend = searchedFriend.replace(/\s+/g, "").toLowerCase();
+
+                $.get("/api/friends/" + searchedFriend, function (data) {
+                    console.log(data);
+                    if (data) {
+                        $("#stats").show();
+                        $("#name").text(data.name);
+                        $("#photo").text(data.photo);
+                        $("#scores").text(data.scores);
+                    }
+                    else {
+                        $("#name").text("You don't have a friend by that name.");
+                        $("#stats").hide();
+                    }
+
+                    var makeArray = function () {
+                        console.log()
+                        var form = document.getElementById("selections")
+                        var inputs = $("#selections").find(":selected")
+                        var input = ''
+                        var results = []
+
+                        for (var i = 0; i < inputs.length; i++) {
+                            input = inputs[i]
+                            results.push(input.text)
+                        }
+                        console.log(results)
+                    }
+                    makeArray()
+
+                    // var inputValues = $('.custom-select').map(x => {
+                    //     console.log("hit")
+                    //     console.log(x)
+                    // }).toArray();
+                });
+            });
+
+
+        </script>
+
+</body>
