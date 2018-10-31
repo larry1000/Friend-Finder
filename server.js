@@ -2,7 +2,7 @@ let express = require("express");
 let app = express();
 var bodyParser = require("body-parser");
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // MIDDLEWARE
 // parse application/x-www-form-urlencoded
